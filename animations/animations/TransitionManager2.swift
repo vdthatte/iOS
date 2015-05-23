@@ -31,7 +31,7 @@ class TransitionManager2:  NSObject, UIViewControllerAnimatedTransitioning, UIVi
         let offScreenLeft = CGAffineTransformMakeTranslation(-container.frame.width, 0)
         
         if(pre == true){
-            toView.transform = offScreenRight
+            toView.transform = offScreenTop
             
             container.addSubview(toView)
             container.addSubview(fromView)
@@ -39,7 +39,7 @@ class TransitionManager2:  NSObject, UIViewControllerAnimatedTransitioning, UIVi
             let duration = self.transitionDuration(transitionContext)
             
             UIView.animateWithDuration(duration, animations: {
-                fromView.transform = offScreenLeft
+                fromView.transform = offScreenBottom
                 toView.transform = CGAffineTransformIdentity
                 
                 }, completion: { finished in
@@ -49,7 +49,7 @@ class TransitionManager2:  NSObject, UIViewControllerAnimatedTransitioning, UIVi
             })
         }
         else{
-            toView.transform = offScreenLeft
+            toView.transform = offScreenBottom
             
             container.addSubview(toView)
             container.addSubview(fromView)
@@ -57,7 +57,7 @@ class TransitionManager2:  NSObject, UIViewControllerAnimatedTransitioning, UIVi
             let duration = self.transitionDuration(transitionContext)
             
             UIView.animateWithDuration(duration, animations: {
-                fromView.transform = offScreenRight
+                fromView.transform = offScreenTop
                 toView.transform = CGAffineTransformIdentity
                 
                 }, completion: { finished in
