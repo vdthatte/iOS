@@ -22,6 +22,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="show:" destination="7Fr-f0-i60" eventType="touchUpInside" id="t9O-yA-6Vl"/>
                                     <segue destination="vXZ-lx-hvc" kind="custom" id="csr-rz-XSk"/>
                                 </connections>
                             </button>
@@ -31,6 +32,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button:" destination="7Fr-f0-i60" eventType="touchUpInside" id="jhy-es-WyR"/>
                                     <segue destination="bPX-WA-AMz" kind="custom" id="K6j-OP-2US"/>
                                 </connections>
                             </button>
@@ -125,6 +127,7 @@
                                 </state>
                                 <connections>
                                     <action selector="animate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="r2s-Q3-WBd"/>
+                                    <segue destination="vWz-X9-jWc" kind="unwind" unwindAction="unwindToViewController:" id="pQQ-LV-ABX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -132,6 +135,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <exit id="vWz-X9-jWc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="444" y="320"/>
         </scene>
