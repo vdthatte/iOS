@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C22647931B10364600FBBDB9 /* AVCamPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22647921B10364600FBBDB9 /* AVCamPreviewView.swift */; };
 		C2A9BABB1B0D42C400368784 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A9BABA1B0D42C400368784 /* CameraView.swift */; };
 		C2DBE9E61B07C79E0064F764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DBE9E51B07C79E0064F764 /* AppDelegate.swift */; };
 		C2DBE9E91B07C79E0064F764 /* playWithAVFoundation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2DBE9E71B07C79E0064F764 /* playWithAVFoundation.xcdatamodeld */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C22647921B10364600FBBDB9 /* AVCamPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCamPreviewView.swift; sourceTree = "<group>"; };
 		C2A9BABA1B0D42C400368784 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		C2DBE9E01B07C79E0064F764 /* playWithAVFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithAVFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DBE9E41B07C79E0064F764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				C2DBE9E51B07C79E0064F764 /* AppDelegate.swift */,
 				C2DBE9EA1B07C79E0064F764 /* ViewController.swift */,
+				C22647921B10364600FBBDB9 /* AVCamPreviewView.swift */,
 				C2DBE9EC1B07C79E0064F764 /* Main.storyboard */,
 				C2A9BABA1B0D42C400368784 /* CameraView.swift */,
 				C2DBE9EF1B07C79E0064F764 /* Images.xcassets */,
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2DBE9EB1B07C79E0064F764 /* ViewController.swift in Sources */,
+				C22647931B10364600FBBDB9 /* AVCamPreviewView.swift in Sources */,
 				C2DBE9E61B07C79E0064F764 /* AppDelegate.swift in Sources */,
 				C2DBE9E91B07C79E0064F764 /* playWithAVFoundation.xcdatamodeld in Sources */,
 				C2A9BABB1B0D42C400368784 /* CameraView.swift in Sources */,
