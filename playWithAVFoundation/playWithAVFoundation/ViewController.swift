@@ -103,8 +103,8 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
                 self.movieFileOutput = movieFileOutput
                 
             }
-
 }
+
 
 
 
