@@ -22,18 +22,7 @@ class AVCamPreviewView: UIView{
         }
     };
     
-    
-    
     override class func layerClass() ->AnyClass{
         return AVCaptureVideoPreviewLayer.self;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
