@@ -9,8 +9,9 @@ import UIKit
 class ContainerViewController: UIViewController {
     
     // Outlet used in storyboard
-    @IBOutlet var scrollView: UIScrollView?
     @IBOutlet var scrollViewVertical: UIScrollView?
+    @IBOutlet var scrollView: UIScrollView?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad();
@@ -24,7 +25,7 @@ class ContainerViewController: UIViewController {
         // 2) Add in each view to the container view hierarchy
         //    Add them in opposite order since the view hieracrhy is a stack
         self.addChildViewController(CVc);
-        self.scrollView!.addSubview(CVc.view);
+        self.scrollViewVertical!.addSubview(CVc.view);
         CVc.didMoveToParentViewController(self);
 
         self.addChildViewController(BVc);
@@ -44,14 +45,16 @@ class ContainerViewController: UIViewController {
         //    with eachother inside the container view
         var adminFrame :CGRect = AVc.view.frame;
         adminFrame.origin.x = adminFrame.width;
-        AVc.view.frame = adminFrame;
+        BVc.view.frame = adminFrame;
         
         var BFrame :CGRect = BVc.view.frame;
-        BFrame.origin.x = 2*BFrame.width;
-        CVc.view.frame = BFrame;
+        BFrame.origin.x = 0;
+        BFrame.origin.y = BFrame.height;
+        BVc.view.frame = BFrame;
         
         var CFrame : CGRect = CVc.view.frame
-        CFrame.origin.x = 2*CFrame.width
+        CFrame.origin.x = CFrame.width
+        CFrame.origin.y = 0
         CVc.view.frame = CFrame
         
         var DFrame : CGRect = DVc.view.frame
@@ -60,13 +63,16 @@ class ContainerViewController: UIViewController {
         DVc.view.frame = DFrame
 
         // 4) Finally set the size of the scroll view that contains the frames
-        var scrollWidth: CGFloat  = 3 * self.view.frame.width
-        var scrollHeight: CGFloat = self.view.frame.height
+        
+        var scrollWidthVertical: CGFloat = 2*self.view.frame.width
+        var scrollHeightVertical: CGFloat = 0
+        self.scrollViewVertical!.contentSize = CGSizeMake(scrollWidthVertical, scrollHeightVertical);
+        
+        var scrollWidth: CGFloat  = self.view.frame.width
+        var scrollHeight: CGFloat = 2*self.view.frame.height
         self.scrollView!.contentSize = CGSizeMake(scrollWidth, scrollHeight);
         
-        var scrollWidthVertical: CGFloat = 2 * self.view.frame.width
-        var scrollHeightVertical: CGFloat = 2 * self.view.frame.height
-        self.scrollViewVertical!.contentSize = CGSizeMake(scrollWidthVertical, scrollHeightVertical);
+
     }
 
     override func didReceiveMemoryWarning() {
