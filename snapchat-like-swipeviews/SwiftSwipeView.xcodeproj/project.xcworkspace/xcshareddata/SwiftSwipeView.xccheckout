@@ -10,31 +10,31 @@
 	<string>SwiftSwipeView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>A5A2B390A95D866FB432CF767D8833EA3A755630</key>
-		<string>https://github.com/lbrendanl/SwiftSwipeView.git</string>
+		<key>B38AB8FD6C89F16B2948552EB85583CDA6AE2D08</key>
+		<string>https://github.com/vdthatte/iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SwiftSwipeView.xcodeproj</string>
+	<string>snapchat-like-swipeviews/SwiftSwipeView.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>A5A2B390A95D866FB432CF767D8833EA3A755630</key>
-		<string>../..</string>
+		<key>B38AB8FD6C89F16B2948552EB85583CDA6AE2D08</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/lbrendanl/SwiftSwipeView.git</string>
+	<string>https://github.com/vdthatte/iOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>A5A2B390A95D866FB432CF767D8833EA3A755630</string>
+	<string>B38AB8FD6C89F16B2948552EB85583CDA6AE2D08</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A5A2B390A95D866FB432CF767D8833EA3A755630</string>
+			<string>B38AB8FD6C89F16B2948552EB85583CDA6AE2D08</string>
 			<key>IDESourceControlWCCName</key>
-			<string>SwiftSwipeView</string>
+			<string>iOS_githubRepo</string>
 		</dict>
 	</array>
 </dict>

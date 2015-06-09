@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2F2C22A1B26889D001EBB29 /* DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F2C2281B26889D001EBB29 /* DViewController.swift */; };
+		C2F2C22B1B26889D001EBB29 /* DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2F2C2291B26889D001EBB29 /* DViewController.xib */; };
 		C6164C211984D1CD00F8F7D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6164C201984D1CD00F8F7D7 /* AppDelegate.swift */; };
 		C6164C261984D1CD00F8F7D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6164C241984D1CD00F8F7D7 /* Main.storyboard */; };
 		C6164C281984D1CD00F8F7D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6164C271984D1CD00F8F7D7 /* Images.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2F2C2281B26889D001EBB29 /* DViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DViewController.swift; sourceTree = "<group>"; };
+		C2F2C2291B26889D001EBB29 /* DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DViewController.xib; sourceTree = "<group>"; };
 		C6164C1B1984D1CD00F8F7D7 /* SwiftSwipeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSwipeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6164C1F1984D1CD00F8F7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6164C201984D1CD00F8F7D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				C6164C431984D22D00F8F7D7 /* BViewController.xib */,
 				C6164C441984D22D00F8F7D7 /* CViewController.swift */,
 				C6164C451984D22D00F8F7D7 /* CViewController.xib */,
+				C2F2C2281B26889D001EBB29 /* DViewController.swift */,
+				C2F2C2291B26889D001EBB29 /* DViewController.xib */,
 			);
 			name = SubViewControllers;
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 				C6164C4B1984D22D00F8F7D7 /* CViewController.xib in Resources */,
 				C6164C471984D22D00F8F7D7 /* AViewController.xib in Resources */,
 				C6164C491984D22D00F8F7D7 /* BViewController.xib in Resources */,
+				C2F2C22B1B26889D001EBB29 /* DViewController.xib in Resources */,
 				C6164C261984D1CD00F8F7D7 /* Main.storyboard in Resources */,
 				C6164C281984D1CD00F8F7D7 /* Images.xcassets in Resources */,
 			);
@@ -188,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6164C3E1984D1F100F8F7D7 /* ContainerViewController.swift in Sources */,
+				C2F2C22A1B26889D001EBB29 /* DViewController.swift in Sources */,
 				C6164C481984D22D00F8F7D7 /* BViewController.swift in Sources */,
 				C6164C4A1984D22D00F8F7D7 /* CViewController.swift in Sources */,
 				C6164C461984D22D00F8F7D7 /* AViewController.swift in Sources */,
