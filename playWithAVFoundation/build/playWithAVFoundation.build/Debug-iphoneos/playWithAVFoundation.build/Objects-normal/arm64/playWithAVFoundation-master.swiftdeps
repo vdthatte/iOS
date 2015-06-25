@@ -1,0 +1,7 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "fb45e39e3388ec3f5035788b9f8b2d5e"
+inputs: 
+- !dirty "/Users/Vidyadhar/Desktop/Github/iOS_githubRepo/playWithAVFoundation/playWithAVFoundation/ViewController.swift"
+- !dirty "/Users/Vidyadhar/Desktop/Github/iOS_githubRepo/playWithAVFoundation/playWithAVFoundation/AVCamPreviewView.swift"
+- !dirty "/Users/Vidyadhar/Desktop/Github/iOS_githubRepo/playWithAVFoundation/playWithAVFoundation/AppDelegate.swift"
+- !dirty "/Users/Vidyadhar/Desktop/Github/iOS_githubRepo/playWithAVFoundation/playWithAVFoundation/CameraView.swift"

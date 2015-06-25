@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A4D38569-EF48-4C99-979D-5F66BC632A80</string>
+	<string>BC82485D-C6FE-47F9-B350-2EC4426176A1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>playWithAVFoundation</string>
+	<string>api_calls</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>B38AB8FD6C89F16B2948552EB85583CDA6AE2D08</key>
 		<string>https://github.com/vdthatte/iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>playWithAVFoundation/playWithAVFoundation.xcodeproj</string>
+	<string>api_calls/api_calls.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B38AB8FD6C89F16B2948552EB85583CDA6AE2D08</key>
