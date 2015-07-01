@@ -1,0 +1,10 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "869be0c2b9d112887de269cfcab295ec"
+inputs: 
+- "/Users/Vidyadhar/Desktop/Github/iOS_githubRepo/animations/animations/TransitionManager.swift"
+- "/Users/Vidyadhar/Desktop/Github/iOS_githubRepo/animations/animations/ViewController.swift"
+- "/Users/Vidyadhar/Desktop/Github/iOS_githubRepo/animations/animations/NavigationTransitionOneVC.swift"
+- "/Users/Vidyadhar/Desktop/Github/iOS_githubRepo/animations/animations/TransitionManager2.swift"
+- "/Users/Vidyadhar/Desktop/Github/iOS_githubRepo/animations/animations/TransitionVC.swift"
+- "/Users/Vidyadhar/Desktop/Github/iOS_githubRepo/animations/animations/TransitionDestinationVC.swift"
+- "/Users/Vidyadhar/Desktop/Github/iOS_githubRepo/animations/animations/AppDelegate.swift"
